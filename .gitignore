@@ -1,0 +1,12 @@
+.coverage/
+.nyc_output/
+.testresults/
+.publish/
+**/node_modules/
+**/*.tar*
+**/*.gz
+**/*.tgz
+**/*.zip
+.ntvs_analysis.dat*
+npm-debug*
+.taskkey

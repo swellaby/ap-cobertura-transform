@@ -1,0 +1,8 @@
+.coverage/
+.nyc_output/
+.testresults/
+.publish/
+.github/
+.vscode/
+node_modules/
+**/.testcontext

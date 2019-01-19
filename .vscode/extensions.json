@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "swellaby.common-pack",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "pflannery.vscode-versionlens",
+  ],
+}

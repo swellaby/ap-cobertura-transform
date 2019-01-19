@@ -1,0 +1,41 @@
+{
+  "files.exclude": {
+    "npm-debug.log": true,
+    ".testresults": true,
+    ".coverage": true,
+    ".publish": true,
+    "node_modules": true,
+    ".nyc_output": true,
+    "**/*.tgz": true,
+    ".taskkey": true
+  },
+  "cSpell.enabled": true,
+  "cSpell.ignorePaths": [
+    "**/node_modules/**",
+    "**/.git/**",
+    ".vscode",
+    "package-lock.json"
+],
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "html",
+    "javascript",
+    "json",
+    "markdown",
+    "plaintext",
+    "properties",
+    "restructuredtext",
+    "text",
+    "yaml",
+    "yml"
+  ],
+  "cSpell.dictionaries": [
+    "companies",
+    "en_us",
+    "filetypes",
+    "node",
+    "npm",
+    "misc",
+    "softwareTerms"
+  ]
+}

@@ -1,0 +1,7 @@
+--ui tdd
+--timeout 7500
+--slow 6000
+-R mocha-multi-reporters
+--reporter-options configFile=test/functional/mocha-reporter-config.json
+--recursive
+./test/functional/**/*.js

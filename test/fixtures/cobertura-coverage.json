@@ -1,0 +1,583 @@
+{
+  "coverage": {
+    "$": {
+      "lines-valid": "43",
+      "lines-covered": "42",
+      "line-rate": "0.9767",
+      "branches-valid": "18",
+      "branches-covered": "17",
+      "branch-rate": "0.9444",
+      "timestamp": "1547781569898",
+      "complexity": "0",
+      "version": "0.1"
+    },
+    "sources": [
+      {
+        "source": [
+          "c:\\dev\\cobertura-transform"
+        ]
+      }
+    ],
+    "packages": [
+      {
+        "class": [
+          {
+            "$": {
+              "name": "index.js",
+              "filename": "index.js",
+              "line-rate": "0.9767",
+              "branch-rate": "0.9444"
+            },
+            "methods": [
+              {
+                "method": [
+                  {
+                    "$": {
+                      "name": "(anonymous_0)",
+                      "hits": "6",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "6",
+                              "hits": "6"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_1)",
+                      "hits": "6",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "6",
+                              "hits": "6"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_2)",
+                      "hits": "6",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "7",
+                              "hits": "6"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_3)",
+                      "hits": "2",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "16",
+                              "hits": "2"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_4)",
+                      "hits": "2",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "16",
+                              "hits": "2"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_5)",
+                      "hits": "2",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "19",
+                              "hits": "2"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_6)",
+                      "hits": "4",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "28",
+                              "hits": "4"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_7)",
+                      "hits": "4",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "28",
+                              "hits": "4"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_8)",
+                      "hits": "4",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "30",
+                              "hits": "4"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_9)",
+                      "hits": "2",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "44",
+                              "hits": "2"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_10)",
+                      "hits": "21",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "48",
+                              "hits": "21"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "name": "(anonymous_11)",
+                      "hits": "21",
+                      "signature": "()V"
+                    },
+                    "lines": [
+                      {
+                        "line": [
+                          {
+                            "$": {
+                              "number": "48",
+                              "hits": "21"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "lines": [
+              {
+                "line": [
+                  {
+                    "$": {
+                      "number": "3",
+                      "hits": "1",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "4",
+                      "hits": "1",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "6",
+                      "hits": "6",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "7",
+                      "hits": "6",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "8",
+                      "hits": "6",
+                      "branch": "true",
+                      "condition-coverage": "100% (2/2)"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "9",
+                      "hits": "4",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "11",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "16",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "17",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "18",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "19",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "20",
+                      "hits": "2",
+                      "branch": "true",
+                      "condition-coverage": "50% (1/2)"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "21",
+                      "hits": "0",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "23",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "28",
+                      "hits": "4",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "29",
+                      "hits": "4",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "30",
+                      "hits": "4",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "31",
+                      "hits": "4",
+                      "branch": "true",
+                      "condition-coverage": "100% (2/2)"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "32",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "34",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "35",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "36",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "37",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "38",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "39",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "44",
+                      "hits": "1",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "45",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "48",
+                      "hits": "21",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "49",
+                      "hits": "21",
+                      "branch": "true",
+                      "condition-coverage": "100% (4/4)"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "50",
+                      "hits": "12",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "53",
+                      "hits": "9",
+                      "branch": "true",
+                      "condition-coverage": "100% (4/4)"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "54",
+                      "hits": "3",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "57",
+                      "hits": "6",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "58",
+                      "hits": "6",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "59",
+                      "hits": "4",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "60",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "61",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "62",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "64",
+                      "hits": "4",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "65",
+                      "hits": "4",
+                      "branch": "true",
+                      "condition-coverage": "100% (4/4)"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "66",
+                      "hits": "2",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "68",
+                      "hits": "4",
+                      "branch": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "number": "72",
+                      "hits": "1",
+                      "branch": "false"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "version": "0.1",
+    "language": "en",
+    "words": [
+      "cobertura",
+      "devops",
+      "lcov",
+      "opensource",
+      "sonarqube",
+      "swellaby",
+      "tagless",
+      "testresults",
+      "xunit"
+    ],
+    "flagWords": [
+
+    ]
+}
