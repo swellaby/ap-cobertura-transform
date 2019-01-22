@@ -3,7 +3,7 @@
     "npm-debug.log": true,
     ".testresults": true,
     ".coverage": true,
-    ".publish": false,
+    ".publish": true,
     ".vsix": true,
     "node_modules": true,
     ".nyc_output": true,

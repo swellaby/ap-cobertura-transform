@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "cobertura-transform",
   "name": "Cobertura Transform",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "Swellaby",
   "public": true,
   "tags": [

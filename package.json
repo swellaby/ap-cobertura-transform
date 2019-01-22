@@ -1,6 +1,6 @@
 {
   "name": "ap-cobertura-transform",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Azure Pipelines task to transform Cobertura 3 reports to Cobertura 4 format",
   "scripts": {
     "build": "npm run lint && npm run coverage:enforce",
