@@ -1,0 +1,82 @@
+{
+  "manifestVersion": 1,
+  "id": "cobertura-transform",
+  "name": "Cobertura Transform",
+  "version": "0.0.7",
+  "publisher": "Swellaby",
+  "public": true,
+  "tags": [
+    "cobertura",
+    "coverage",
+    "transform"
+  ],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Pipeline tasks to transform Cobertura 3 format to Cobertura 4",
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "scopes": [
+    "vso.extension",
+    "vso.profile"
+  ],
+  "icons": {
+    "default": "images/extension-icon.png"
+  },
+  "files": [
+    {
+      "path": ".publish"
+    },
+    {
+      "path": "images",
+      "addressable": true
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "README.md"
+    },
+    "license": {
+      "path": "LICENSE"
+    }
+  },
+  "gallery-flags": [
+    "Preview",
+    "Public"
+  ],
+  "branding": {
+    "color": "rgb(44, 62, 80)",
+    "theme": "dark"
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://github.com/swellaby/ap-cobertura-transform"
+    },
+    "support": {
+      "uri": "https://github.com/swellaby/ap-cobertura-transform/issues/new/choose"
+    },
+    "license": {
+      "uri": "https://github.com/swellaby/ap-cobertura-transform/blob/master/LICENSE"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/swellaby/ap-cobertura-transform"
+  },
+  "contributions": [
+    {
+      "id": "cobertura-transform-3-to-4",
+      "description": "Pipeline tasks to transform Cobertura 3 format to Cobertura 4",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": ".publish/transform-3-to-4"
+      }
+    }
+  ]
+}

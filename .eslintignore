@@ -2,6 +2,7 @@
 .nyc_output/
 .testresults/
 .publish/
+.vsix/
 .github/
 .vscode/
 node_modules/

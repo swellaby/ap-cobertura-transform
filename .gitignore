@@ -2,6 +2,7 @@
 .nyc_output/
 .testresults/
 .publish/
+.vsix/
 **/node_modules/
 **/*.tar*
 **/*.gz

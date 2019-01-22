@@ -7,9 +7,9 @@
   "author": "Swellaby",
   "helpMarkDown": "[More Information](https://github.com/swellaby/ap-cobertura-transform)",
   "version": {
-      "Major": 0,
-      "Minor": 0,
-      "Patch": 4
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 7
   },
   "instanceNameFormat": "Transform Cobertura Format From 3 to 4",
   "inputs": [

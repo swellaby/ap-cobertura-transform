@@ -3,11 +3,13 @@
     "npm-debug.log": true,
     ".testresults": true,
     ".coverage": true,
-    ".publish": true,
+    ".publish": false,
+    ".vsix": true,
     "node_modules": true,
     ".nyc_output": true,
     "**/*.tgz": true,
-    ".taskkey": true
+    ".taskkey": true,
+    "**/*.vsix": true
   },
   "cSpell.enabled": true,
   "cSpell.ignorePaths": [

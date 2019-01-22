@@ -1,10 +1,10 @@
 {
   "name": "ap-cobertura-transform",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "Azure Pipelines task to transform Cobertura 3 reports to Cobertura 4 format",
   "scripts": {
     "build": "npm run lint && npm run coverage:enforce",
-    "clean": "rimraf .testresults .coverage .publish",
+    "clean": "rimraf .testresults .coverage .publish .vsix",
     "lint": "eslint **/*.js",
     "test": "npm run test:unit",
     "test:all": "npm run test:unit && npm run test:component",
@@ -15,14 +15,17 @@
     "coverage:open": "npm run coverage && opn .coverage/unit/index.html",
     "package:deps": "copy-node-modules . .publish/transform-3-to-4",
     "package:task": "mkdirp .publish/transform-3-to-4 && ncp tasks/transform-3-to-4 .publish/transform-3-to-4",
-    "prepackage": "npm run clean && npm run package:deps && npm run package:task",
-    "package": "tfx extension create --manifest-globs vss-extension.json",
+    "prepackage": "npm run clean && npm run version:bump && npm run package:deps && npm run package:task",
+    "package": "tfx extension create --manifest-globs vss-extension.json --output-path .vsix/",
     "pretask:upload": "npm run prepackage",
     "tfx:login": "tfx login",
     "task:upload": "tfx build tasks upload --task-path .publish/transform-3-to-4",
     "task:delete": "tfx build tasks delete --task-id ae5147f1-1859-49cf-8950-f17e73008ce2",
     "dev:setup": "npm i && npm run build",
-    "dev:reset": "npm run clean && node -e \"require('rimraf').sync('node_modules');\" && npm run dev:setup"
+    "dev:reset": "npm run clean && node -e \"require('rimraf').sync('node_modules');\" && npm run dev:setup",
+    "version:bump": "npm run manifests:version:bump && npm run npm:version:bump:tagless",
+    "npm:version:bump:tagless": "npm --no-git-tag-version version patch",
+    "manifests:version:bump": "vsts-bump tasks/**/task.json && bump vss-extension.json patch"
   },
   "repository": {
     "type": "git",
@@ -56,6 +59,7 @@
   "devDependencies": {
     "@swellaby/eslint-config": "^1.1.6",
     "@swellaby/nyc-config": "^1.1.0",
+    "bump-file": "^2.0.0",
     "chai": "^4.2.0",
     "copy-node-modules": "^1.1.1",
     "eslint": "^5.12.1",
@@ -68,8 +72,9 @@
     "nyc": "^13.1.0",
     "opn-cli": "^4.0.0",
     "rimraf": "^2.6.3",
-    "sinon": "^7.2.2",
-    "tfx-cli": "^0.6.4"
+    "sinon": "^7.2.3",
+    "tfx-cli": "^0.6.4",
+    "vsts-bump": "^1.0.5"
   },
   "dependencies": {
     "azure-pipelines-task-lib": "^2.7.7",
