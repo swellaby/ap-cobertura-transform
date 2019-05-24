@@ -57,7 +57,7 @@
     "coverage report"
   ],
   "devDependencies": {
-    "@swellaby/eslint-config": "^1.1.6",
+    "@swellaby/eslint-config": "^2.0.0",
     "@swellaby/nyc-config": "^1.1.0",
     "bump-file": "^2.0.0",
     "chai": "^4.2.0",
