@@ -1,3 +1,4 @@
 {
-  "extends": "@swellaby/nyc-config"
+  "extends": "@swellaby/nyc-config",
+  "extensions": [ ".js" ]
 }
