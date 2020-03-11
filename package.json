@@ -58,7 +58,7 @@
   ],
   "devDependencies": {
     "@swellaby/eslint-config": "^2.0.0",
-    "@swellaby/nyc-config": "^2.0.0",
+    "@swellaby/nyc-config": "^3.0.0",
     "bump-file": "^2.0.0",
     "chai": "^4.2.0",
     "copy-node-modules": "^1.1.1",
