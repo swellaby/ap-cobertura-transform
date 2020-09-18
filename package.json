@@ -71,9 +71,10 @@
     "ncp": "^2.0.0",
     "nyc": "^15.0.1",
     "opn-cli": "^4.0.0",
+    "open-cli": "6.0.1",
     "rimraf": "^3.0.2",
     "sinon": "^9.0.2",
-    "tfx-cli": "^0.8.0",
+    "tfx-cli": "^0.8.3",
     "vsts-bump": "^1.1.8"
   },
   "dependencies": {
