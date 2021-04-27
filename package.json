@@ -63,7 +63,7 @@
     "chai": "^4.2.0",
     "copy-node-modules": "^1.1.1",
     "eslint": "^7.0.0",
-    "husky": "^4.2.5",
+    "husky": "^6.0.0",
     "mkdirp": "^1.0.4",
     "mocha": "^8.1.1",
     "mocha-multi-reporters": "^1.1.7",
