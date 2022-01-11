@@ -2,6 +2,8 @@ version: 2
 updates:
   - package-ecosystem: npm
     directory: '/'
+    ignore:
+      - dependency-name: 'husky'
     schedule:
       interval: monthly
       day: thursday
