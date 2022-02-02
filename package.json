@@ -60,7 +60,7 @@
     "@swellaby/eslint-config": "^2.0.0",
     "@swellaby/nyc-config": "^3.0.13",
     "bump-file": "^2.0.0",
-    "chai": "^4.3.4",
+    "chai": "^4.3.6",
     "copy-node-modules": "^1.1.1",
     "eslint": "^8.8.0",
     "husky": "^4.2.5",
