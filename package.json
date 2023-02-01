@@ -77,7 +77,7 @@
     "vsts-bump": "^1.1.8"
   },
   "dependencies": {
-    "azure-pipelines-task-lib": "^3.3.1",
+    "azure-pipelines-task-lib": "^4.2.0",
     "cobertura-transform": "^0.3.0"
   }
 }
