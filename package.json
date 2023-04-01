@@ -62,7 +62,7 @@
     "bump-file": "^2.0.0",
     "chai": "^4.3.7",
     "copy-node-modules": "^1.1.1",
-    "eslint": "^8.35.0",
+    "eslint": "^8.37.0",
     "husky": "^4.2.5",
     "mkdirp": "^2.1.4",
     "mocha": "^10.2.0",
