@@ -70,7 +70,7 @@
     "mocha-sonarqube-reporter": "^1.0.2",
     "ncp": "^2.0.0",
     "nyc": "^15.1.0",
-    "open-cli": "7.1.0",
+    "open-cli": "7.2.0",
     "rimraf": "^4.1.4",
     "sinon": "^15.1.0",
     "tfx-cli": "^0.14.0",
