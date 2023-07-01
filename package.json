@@ -73,7 +73,7 @@
     "open-cli": "7.2.0",
     "rimraf": "^4.1.4",
     "sinon": "^15.1.0",
-    "tfx-cli": "^0.14.0",
+    "tfx-cli": "^0.15.0",
     "vsts-bump": "^1.1.8"
   },
   "dependencies": {
